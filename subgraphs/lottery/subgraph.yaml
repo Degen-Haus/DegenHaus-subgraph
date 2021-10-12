@@ -1,6 +1,6 @@
 specVersion: 0.0.2
-description: PancakeSwap Lottery
-repository: https://github.com/pancakeswap
+description: CosmicSwap Lottery for BSC
+repository: https://github.com/cryptoinhero
 schema:
   file: ./schema.graphql
 dataSources:
@@ -8,9 +8,9 @@ dataSources:
     name: Lottery
     network: bsc
     source:
-      address: '0x5aF6D33DE2ccEC94efb1bDF8f92Bd58085432d2c'
+      address: '0xbd256796757166dc04185b238fb29795c81df6fd'
       abi: Lottery
-      startBlock: 8796011
+      startBlock: 11703476
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.4
