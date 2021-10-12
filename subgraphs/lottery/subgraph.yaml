@@ -6,11 +6,11 @@ schema:
 dataSources:
   - kind: ethereum/contract
     name: Lottery
-    network: bsc
+    network: matic
     source:
-      address: '0xbd256796757166dc04185b238fb29795c81df6fd'
+      address: '0x5b61D6ff0Ec4AA33103677e3Cf3C5e8c67d55eB4'
       abi: Lottery
-      startBlock: 11703476
+      startBlock: 20140880
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.4
